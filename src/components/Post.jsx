@@ -31,7 +31,7 @@ const Post = () => {
       />
       <CardMedia
         component="img"
-        height="20%"
+        height="250"
         image="https://images.pexels.com/photos/16377849/pexels-photo-16377849/free-photo-of-man-wearing-red-jacket-looking-at-mountains.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Paella dish"
       />
