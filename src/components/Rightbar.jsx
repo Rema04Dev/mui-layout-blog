@@ -46,13 +46,22 @@ const Rightbar = () => {
           sx={{ height: '100px', overflow: 'hidden' }}
         >
           <ImageListItem>
-            <img src="https://images.pexels.com/photos/2739286/pexels-photo-2739286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <img
+              alt="desc"
+              src="https://images.pexels.com/photos/2739286/pexels-photo-2739286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.pexels.com/photos/1075772/pexels-photo-1075772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <img
+              alt="desc"
+              src="https://images.pexels.com/photos/1075772/pexels-photo-1075772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            />
           </ImageListItem>
           <ImageListItem>
-            <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" />
+            <img
+              alt="desc"
+              src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            />
           </ImageListItem>
         </ImageList>
 

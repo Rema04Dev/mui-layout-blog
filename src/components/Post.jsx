@@ -17,9 +17,12 @@ const Post = () => {
     <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
-            R
-          </Avatar>
+          <Avatar
+            src="https://images.pexels.com/photos/576494/pexels-photo-576494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="avatar"
+            sx={{ bgcolor: 'red' }}
+            aria-label="recipe"
+          />
         }
         action={
           <IconButton aria-label="settings">
