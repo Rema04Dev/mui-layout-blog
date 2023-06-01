@@ -11,6 +11,7 @@ import {
   Box,
   Button,
   ButtonGroup,
+  CssBaseline,
   Fab,
   Modal,
   Stack,
@@ -32,6 +33,7 @@ const AddPost = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
+      <CssBaseline />
       <Tooltip
         onClick={() => setOpen(true)}
         sx={{
@@ -58,7 +60,19 @@ const AddPost = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box width={400} height={260} bgcolor="white" p={3} borderRadius={4}>
+        <Box
+          sx={{
+            width: 400,
+            height: 260,
+            bgcolor: 'background.default',
+            color: 'text.primary',
+          }}
+          width={400}
+          height={260}
+          bgcolor="white"
+          p={3}
+          borderRadius={4}
+        >
           <Typography
             id="modal-modal-title"
             variant="h5"

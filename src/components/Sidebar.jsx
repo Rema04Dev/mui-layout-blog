@@ -17,7 +17,7 @@ import {
   Settings,
   Storefront,
 } from '@mui/icons-material';
-const Sidebar = () => {
+const Sidebar = ({ themeMode, setThemeMode }) => {
   return (
     <Box
       flex={1}
@@ -99,7 +99,11 @@ const Sidebar = () => {
               <ListItemIcon>
                 <ModeNight />
               </ListItemIcon>
-              <Switch />
+              <Switch
+                onChange={() =>
+                  setThemeMode(themeMode === 'light' ? 'dark' : 'light')
+                }
+              />
             </ListItemButton>
           </ListItem>
         </List>
